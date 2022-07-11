@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Header = ({name}) => {
+
+const Header = ({title}) => {
   return (
-    <div>
-        <h1>{name}</h1>
-    </div>
+    <header>
+        <h1>{title}</h1>
+    </header>
   )
 }
 

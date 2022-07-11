@@ -1,10 +1,11 @@
 import Header from "./components/Header";
+
 //import React from "react";---used when using class;
 function App() {
  
   return (
-    <div className="App">
-        <Header name='Task Tracker'/>
+    <div className="container">
+        <Header title='Task Tracker'/>
     
       
     </div>
