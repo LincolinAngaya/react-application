@@ -19,10 +19,14 @@ const tasks=[
       }
 ]
 
-const Task = () => {
+const Tasks = () => {
   return (
-    <div>Task</div>
+    <>
+    {tasks.map((task) => (
+      <h3>{task.text}</h3>
+      ))}
+    </>
   )
 }
 
-export default Task
+export default Tasks;

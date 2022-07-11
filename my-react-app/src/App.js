@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Tasks from "./components/Tasks";
 
 //import React from "react";---used when using class;
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <div className="container">
         <Header title='Task Tracker'/>
+        < Tasks />
     
       
     </div>
